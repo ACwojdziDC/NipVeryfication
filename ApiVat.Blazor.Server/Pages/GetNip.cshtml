@@ -1,0 +1,22 @@
+﻿@page "/"
+@model ApiVat.Blazor.Server.Pages.GetNipModel
+@using (Html.BeginForm(FormMethod.Post))
+{
+    <p>Podaj NIP firmy która chcesz zweryfikować (tylko cyfry bez znaków specjalnych i spacji) :</p>
+    <input name="Nip" />
+    <button type="submit">Sprawdź</button>
+    <p></p>
+}
+<body>
+    @Model.ErrorMessage
+    <p>
+        NIP:  @Model.ClientNip
+    </p>
+    <p>
+        Nazwa:  @Model.ClientName
+    </p>
+    <p>
+        Status VAT w dniu dzisiejszym:  @Model.ClientStatus
+    </p>
+
+</body>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiVat.Module", "ApiVat.Module\ApiVat.Module.csproj", "{407C1712-5A74-4DAC-AA2C-33E4A75D5EEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiVat.Module.Blazor", "ApiVat.Module.Blazor\ApiVat.Module.Blazor.csproj", "{8852BBE2-2020-41DD-B907-0FE5D3F7C2C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiVat.Blazor.Server", "ApiVat.Blazor.Server\ApiVat.Blazor.Server.csproj", "{5BFA4516-F19F-4756-A910-DF1147B784F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{407C1712-5A74-4DAC-AA2C-33E4A75D5EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407C1712-5A74-4DAC-AA2C-33E4A75D5EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407C1712-5A74-4DAC-AA2C-33E4A75D5EEB}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{407C1712-5A74-4DAC-AA2C-33E4A75D5EEB}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{407C1712-5A74-4DAC-AA2C-33E4A75D5EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407C1712-5A74-4DAC-AA2C-33E4A75D5EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8852BBE2-2020-41DD-B907-0FE5D3F7C2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8852BBE2-2020-41DD-B907-0FE5D3F7C2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8852BBE2-2020-41DD-B907-0FE5D3F7C2C5}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{8852BBE2-2020-41DD-B907-0FE5D3F7C2C5}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{8852BBE2-2020-41DD-B907-0FE5D3F7C2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8852BBE2-2020-41DD-B907-0FE5D3F7C2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFA4516-F19F-4756-A910-DF1147B784F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFA4516-F19F-4756-A910-DF1147B784F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFA4516-F19F-4756-A910-DF1147B784F7}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{5BFA4516-F19F-4756-A910-DF1147B784F7}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{5BFA4516-F19F-4756-A910-DF1147B784F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFA4516-F19F-4756-A910-DF1147B784F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28523ADA-5659-4B60-B40E-9185A4558076}
+	EndGlobalSection
+EndGlobal
